@@ -38,6 +38,6 @@ server.get("/contact-us", function (req, res) {
     });
 });
 
-server.listen(PORT, "localhost", function () {
+server.listen(PORT, function () {
     console.log("Server started on port: " + PORT);
 });
